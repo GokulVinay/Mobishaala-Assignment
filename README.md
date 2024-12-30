@@ -19,7 +19,7 @@ A robust backend service that integrates with the 100ms API to manage live video
 - WebSocket Integration
 - Database Integration
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 project/
 ├── src/
@@ -75,8 +75,6 @@ NODE_ENV=development
 npm start
 ```
 
-## 📌 API Endpoints
-
 ### Authentication
 ```
 POST /api/auth/register
@@ -91,7 +89,7 @@ GET /api/rooms            # List all rooms
 POST /api/rooms/:roomId/token  # Generate room token
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 1. **Prerequisites**
    - Node.js installed on server
